@@ -104,7 +104,7 @@ let incriment = (id) => {
             return item*search.price;
         }).reduce((x,y)=>x+y,0);
         label.innerHTML = `<h2>Total Bill : $ ${amount} </h2>
-        <button class="checkout">Checkout</button>
+        <button onclick="checkOut()" class="checkout">Checkout</button>
         <button onclick="clearCart()" class="removeAll">Clear Cart</button>`;
     }
     else return;
@@ -117,6 +117,10 @@ let incriment = (id) => {
     localStorage.setItem("data", JSON.stringify(bookBasket))
     
 
+ }
+
+ let checkOut = () =>{
+    alert('Checkout function coming soon');
  }
 
  totalAmount();
