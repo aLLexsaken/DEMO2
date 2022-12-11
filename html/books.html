@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tolkien's Books</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <img class="muteIcon"
+            src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Speaker_Icon.svg/500px-Speaker_Icon.svg.png"
+            alt="" onclick='toggleSound(this);'>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="books.html" class="active">Books</a></li>
+            <li><a href="biography.html">Biography</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    <div class="middle">
+        <div class="flexcontainer">
+            <div class="leftside">
+                <div class="featuredcard">
+                    <div class="featuredcont">
+                        <a href=""><img class="featuredimg" alt="" src="../img/book1.jpg"></a>
+                        <div class="featuredtitle">The Hobbit</div>
+                        <div class="featuredtext"> In a hole in the ground there lived a hobbit. So begins one of the
+                            most beloved and delightful tales in the English language--Tolkien's prelude to The Lord of
+                            the Rings. Set in the imaginary world of Middle-earth, at once a classic myth and a modern
+                            fairy tale, The Hobbit is one of literature's most enduring and well-loved novels. </div>
+                    </div>
+                </div>
+                <div id="resultplace">
+                    <ul id="storebooks" class="searchresult">
+                        
+                    </ul>
+                        <div id="loadmorelist">Load more</div>
+                </div>
+            </div>
+            <footer class="footer">© aLLex 2022 All Rights Reserved</footer>
+        </div>
+
+    </div>
+
+    <audio id="my_audio" src="../audio/audio.mp3" loop="loop"></audio>
+    <a href="cart.html" style="color:white ;"><div class="cart"><i class="bi bi-cart2"></i>
+    <div id="cartAmount" class="cartAmount">0</div></a>
+</div>
+    <div class="goup"><a href="#top"><i class="fa-solid fa-circle-up"></i></a></div>
+
+    
+</body>
+<script src="../js/Data.js"></script>
+<script src="../js/main.js"></script>
+
+</html>

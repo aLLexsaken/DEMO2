@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="nav">
+        <img class="muteIcon"
+            src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Speaker_Icon.svg/500px-Speaker_Icon.svg.png"
+            alt="" onclick='toggleSound(this);'>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="books.html">Books</a></li>
+            <li><a href="biography.html">Biography</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+        </ul>
+    </nav>
+    <div class="about">
+        <div class="me">
+            <img class="meImg" src="../img/me.jpg" title="Hi" alt="">
+            <div class="text">
+                <p> I'm Alex. <br>
+                    Member of SoftServe Acedemy team. <br>
+               Finished my CS Bachelor degree in 2021.  <br> 
+                   Although I have little experince, my passion for creating/designing websites is BIG.
+                </p>
+                <a href="https://www.instagram.com/"> <img class="insta" src="../img/insta.png" title="Instagram" alt=""></a>
+                <a href="https://github.com/aLLexsaken"><img class="git" src="../img/git.png" title="GitHub" alt=""></a>
+            </div>
+        </div>
+
+    </div>
+    <audio id="my_audio" src="../audio/audio.mp3" loop="loop"></audio>
+    <script src="../js/main.js"></script>
+    <footer>© aLLex 2022 All Rights Reserved</footer>
+</body>
+
+</html>
